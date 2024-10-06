@@ -1,0 +1,250 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/PFDinTextCondPro-Medium.woff2") format("woff2");
+  font-weight: 900;
+  font-style: bold;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Permanent Marker";
+  src: url("../fonts/Permanent/PermanentMarker-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.contacts .container .contacts-title .title-1 {
+  font-size: 34px;
+  font-weight: 600;
+}
+
+body {
+  color: black;
+  font-family: "Poppins", sans-serif;
+}
+body .header {
+  padding: 46px 0px 0px 0px;
+  background-color: #F1F1F1;
+}
+body .header .container {
+  max-width: 1230px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+body .header .container .header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 76px;
+}
+body .header .container .header-nav .logo {
+  font-family: "Permanent Marker";
+  font-weight: 700;
+  font-size: 40px;
+  color: black;
+}
+body .header .container .header-nav .nav-list {
+  display: flex;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  font-size: 14px;
+}
+body .header .container .header-nav .nav-list .nav-item .nav-link {
+  color: black;
+}
+body .header .container .header-nav .nav-list .nav-item .nav-link:hover {
+  color: #606060;
+}
+body .header .container .header-nav .nav-button {
+  display: none;
+}
+body .header .container .header-row {
+  display: flex;
+  justify-content: space-between;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+body .header .container .header-row .header-content {
+  max-width: 500px;
+  align-self: center;
+}
+body .header .container .header-row .header-content .header-heading {
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 44px;
+}
+body .header .container .header-row .header-content p {
+  line-height: 2;
+}
+body .services {
+  padding: 90px 0px;
+}
+body .services .container {
+  display: flex;
+  justify-content: center;
+}
+body .services .container .services-row {
+  display: flex;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}
+body .services .container .services-row .service-card .service-card-img {
+  height: 70px;
+  width: 70px;
+  margin-bottom: 30px;
+}
+body .services .container .services-row .service-card .service-card-title {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+body .services .container .services-row .service-card p {
+  line-height: 2;
+}
+
+.images {
+  background-color: #F1F1F1;
+  padding: 90px 0px;
+}
+.images .container .images-title {
+  text-align: center;
+  margin-bottom: 70px;
+}
+.images .container .images-title .title-1 {
+  font-size: 34px;
+  font-weight: 600;
+}
+.images .container .images-about-us {
+  text-align: center;
+}
+.images .container .images-about-us + .images-about-us {
+  margin-top: 90px;
+}
+.images .container .images-about-us .about-image {
+  height: 500px;
+  width: 800px;
+  margin-bottom: 40px;
+}
+.images .container .images-about-us .worhip-title {
+  font-size: 18px;
+}
+.images .container .images-about-us .worhip-title a {
+  color: #000;
+  text-decoration: underline;
+}
+
+.contacts {
+  padding: 90px 0px;
+  text-align: center;
+}
+.contacts .container .contacts-title {
+  margin-bottom: 40px;
+}
+.contacts .container .contacts-button {
+  margin-bottom: 70px;
+}
+.contacts .container .contacts-button .btn {
+  background-color: #070707;
+  display: inline-block;
+  padding: 7px 22px;
+  border-radius: 30px;
+  font-size: 18px;
+  color: white;
+  transition: background-color 0.2s ease-in;
+}
+.contacts .container .contacts-button .btn:hover {
+  background-color: #212020;
+}
+.contacts .container .contacts-social {
+  margin-bottom: 40px;
+}
+.contacts .container .contacts-footer {
+  color: #828282;
+}/*# sourceMappingURL=style.css.map */

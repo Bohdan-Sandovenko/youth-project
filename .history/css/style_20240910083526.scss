@@ -1,0 +1,14 @@
+@import "nullstyles.scss";
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/PFDinTextCondPro-Medium.woff2') format('woff2');
+    font-weight: 900;
+    font-style: bold;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}

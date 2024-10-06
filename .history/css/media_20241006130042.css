@@ -1,0 +1,10 @@
+@media (max-width: 1230px) {
+  .nav-list {
+    display: none;
+    background-color: blue;
+  }
+  .nav-button {
+    display: block;
+    background-color: yellow;
+  } 
+}/*# sourceMappingURL=media.css.map */

@@ -1,0 +1,9 @@
+@media (max-width: 1230px) {
+  .nav-list {
+    display: none;
+  }
+  .nav-button {
+    display: block;
+    background-color: red;
+  }
+}/*# sourceMappingURL=media_20241005123039.css.map */
